@@ -1,0 +1,136 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 10%;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+  
+  .titulo {
+    width: 90%;
+    text-align: center;
+  }
+  
+  .titulo h1 {
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .titulo p {
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  /* Menú */
+  nav {
+    background-color: #333333;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #444444;
+  }
+  
+  /* Portafolio */
+  #portafolio {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  #portafolio h2 {
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+  }
+  
+  .producto {
+    border: solid 1px #cccccc;
+  }
+  
+  .producto img {
+    width: 100%; color: white;
+  }
+  
+  .producto h3, p, button {
+    padding: 10px;
+  }
+  
+  .producto h3 {
+    font-size: 18px;
+  }
+  
+  .producto p {
+    font-size: 16px;
+  }
+  
+  .producto button {
+    background-color: #333333;
+    color: white;
+    border: none;
+  }
+  
+  .producto button:hover {
+     background-color:#444444; 
+  }
+  
+  /* Formulario de contacto */
+  #contacto {
+     padding:20px;
+     background-color: #f0f0f0; 
+  }
+  
+  #contacto h2 {
+     text-align:center; 
+  }
+  
+  #contacto form {
+     max-width:600px; 
+     margin:auto; 
+  }
+  
+  #contacto form label, input, textarea, button {
+     display:block; 
+     width:100%; 
+     margin-bottom:10px; 
+  }
+  
+  #contacto form label {
+     font-weight:bold; 
+     font-size:16px; 
+  }
+  
+  #contacto form input, textarea, button {
+     font-size:14px; 
+     padding:5px; 
+  }

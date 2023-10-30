@@ -1,0 +1,100 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del contenedor principal */
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Estilos de la sección de datos personales */
+.personal {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Estilos de la foto */
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Estilos del nombre */
+.name {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Estilos de los datos de contacto */
+.contact {
+  list-style: none;
+}
+
+/* Estilos de los elementos de la lista de contacto */
+.contact li {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* Estilos de los títulos de las secciones */
+.section-title {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 10px;
+ 
+  
+}
+
+/* Estilo de mi Perfil*/
+.perfil {
+  list-style: none;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Estilos de la lista de estudios realizados */
+.studies {
+  list-style: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Estilos de los elementos de la lista de estudios */
+.studies li {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  padding: 10px;
+}
+
+/* Estilos de la lista de trabajos realizados */
+.jobs {
+  list-style: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Estilos de los elementos de la lista de trabajos */
+.jobs li {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  padding: 10px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Camisetas de Fútbol</title>
+    <!-- Vincular la hoja de estilos CSS -->
+    <link rel="stylesheet" href="02_estilos.css">
+</head>
+<body>
+    <!-- Encabezado -->
+<header>
+    <div class="logo">
+      <img src="img/Futboline.png" alt="Logo de la empresa" />
+    </div>
+    <div class="titulo">
+      <h1>Tienda Futboline</h1>
+      <p>La mejor calidad al mejor precio</p>
+    </div>
+  </header>
+  
+  <!-- Menú -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="contacto.html">Información de contacto</a></li>
+      <li><a href="empresa.html">Descripción de la empresa</a></li>
+      <li><a href="portafolio.html">Portafolio</a></li>
+      <li><a href="testimoniales.html">Testimoniales</a></li>
+      <li><a href="noticias.html">Noticias</a></li>
+      <li><a href="precios.html">Página de precios</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Portafolio -->
+  <main>
+    <section id="portafolio">
+      <h2>Nuestros productos</h2>
+      <br>
+      <div class="grid">
+        <!-- Producto 1 -->
+        <div class="producto">
+          <img src="img/camiseta1.jpg" alt="Camiseta del FC Barcelona"   width="100" height="300"/>
+          <h3>Camiseta del FC Barcelona</h3>
+          <p>Precio: $156.99</p>
+          <button>Añadir al carrito</button>
+        </div>
+        <!-- Producto 2 -->
+        <div class="producto">
+          <img src="img/camiseta2.jpg" alt="Camiseta del Real Madrid" width="100" height="300"/>
+          <h3>Camiseta del Real Madrid</h3>
+          <p>Precio: $150.99</p>
+          <button>Añadir al carrito</button>
+        </div>
+        <!-- Producto 3 -->
+        <div class="producto">
+          <img src="img/camiseta3.jpg" alt="Camiseta del Manchester United" width="100" height="300"/>
+          <h3>Camiseta del Manchester United</h3>
+          <p>Precio: $158.99</p>
+          <button>Añadir al carrito</button>
+        </div>
+        <!-- Producto 4 -->
+        <div class="producto">
+          <img src="img/camiseta4.jpg" alt="Camiseta del PSG" width="100" height="300"/>
+          <h3>Camiseta del PSG</h3>
+          <p>Precio: $99.99</p>
+          <button>Añadir al carrito</button>
+        </div>
+        <!-- Producto 5 -->
+        <div class="producto">
+          <img src="img/camiseta5.jpg" alt="Camiseta del Bayern Munich" width="100" height="300"/>
+          <h3>Camiseta del Bayern Munich</h3>
+          <p>Precio: $158.99</p>
+          <button>Añadir al carrito</button>
+        </div>
+        <!-- Producto 6 -->
+        <div class="producto">
+          <img src="img/camiseta6.jpg" alt="Camiseta del Juventus" width="100" height="300"/>
+          <h3>Camiseta del Juventus</h3>
+          <p>Precio: $79.99</p>
+          <button>Añadir al carrito</button>
+        </div>
+      </div>
+    </section>
+  
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form action="#" method="post">
+      <!-- Nombre -->
+      <label for="nombre">Nombre:</label><br />
+      <input type="text" id="nombre" name="nombre" required /><br />
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <!-- Asunto -->
+      <label for="asunto">Asunto:</label><br />
+      <input type="text" id="asunto" name="asunto" required /><br />
+      <!-- Mensaje -->
+      <label for="mensaje">Mensaje:</label><br />
+      <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br />
+      <!-- Política de privacidad -->
+      <input type="checkbox" id="privacidad" name="privacidad" required />
+      <label for="privacidad">Acepto la política de privacidad</label><br />
+      <!-- Botón de enviar -->
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  </main> 
+</body>
+</html>
